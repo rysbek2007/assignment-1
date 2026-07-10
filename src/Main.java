@@ -61,6 +61,8 @@ public class Main {
 
 
     public static int sumSquares(int n) {
+        // Time Complexity: O(n)
+       // Explanation: The function makes one recursive call for each value from n down to 1.
 
         if (n == 1) {
             return 1;
@@ -71,6 +73,8 @@ public class Main {
 
 
     public static int sumArray(int[] arr, int n) {
+        // Time Complexity: O(n)
+       // Explanation: The function processes one array element in each recursive call until all elements are summed.
 
         if (n == 0) {
             return 0;
@@ -81,6 +85,8 @@ public class Main {
 
 
     public static int sumPowers(int b, int n) {
+        // Time Complexity: O(n²)
+       // Explanation: The function calls power() for every value from n to 0. Since power() itself is O(n), the total complexity is O(n²).
 
         if (n == 0) {
             return 1;
@@ -90,6 +96,8 @@ public class Main {
     }
 
     public static int power(int b, int n) {
+        // Time Complexity: O(n)
+       // Explanation: The function performs one recursive call for each exponent until it reaches 0.
 
         if (n == 0) {
             return 1;
@@ -100,6 +108,8 @@ public class Main {
 
 
     public static void reverseNumbers(int n, Scanner sc) {
+        // Time Complexity: O(n)
+       // Explanation: The function reads one number and makes one recursive call for each input element.
 
         if (n == 0) {
             return;
