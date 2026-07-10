@@ -6,15 +6,15 @@ public class Main {
 
         Scanner sc = new Scanner(System.in);
 
-        task1(sc);
-        task2(sc);
-        task3(sc);
-        task4(sc);
+        sumSquares(sc);
+        sumArray(sc);
+        sumPowers(sc);
+        reverseNumbers(sc);
 
         sc.close();
     }
 
-    public static void task1(Scanner sc) {
+    public static void sumSquares(Scanner sc) {
         System.out.println("Task 1");
         System.out.print("Enter n: ");
 
@@ -23,7 +23,7 @@ public class Main {
         System.out.println("Answer = " + sumSquares(n));
     }
 
-    public static void task2(Scanner sc) {
+    public static void sumArray(Scanner sc) {
         System.out.println("\nTask 2");
 
         int[] arr = {5, 2, 7, 4, 1};
@@ -34,7 +34,7 @@ public class Main {
         System.out.println("Answer = " + sumArray(arr, k));
     }
 
-    public static void task3(Scanner sc) {
+    public static void sumPowers(Scanner sc) {
         System.out.println("\nTask 3");
 
         System.out.print("Enter base b: ");
@@ -46,7 +46,7 @@ public class Main {
         System.out.println("Answer = " + sumPowers(b, n));
     }
 
-    public static void task4(Scanner sc) {
+    public static void reverseNumbers(Scanner sc) {
         System.out.println("\nTask 4");
 
         System.out.print("Enter number of elements: ");
